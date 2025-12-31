@@ -1,0 +1,38 @@
+{
+  "type": "season",
+  "fileName": "profile-custom-season.svg",
+  "backgroundColor": "#ffffff",
+  "foregroundColor": "#00000f",
+  "strongColor": "#111133",
+  "weakColor": "gray",
+  "radarColor": "#47a042",
+  "growingAnimation": true,
+  "contribColors1": [ 
+    "#fff2f7",
+    "#ffd6e5",
+    "#ffb8d3",
+    "#faadcf",
+    "#fc97c2"
+  ],
+  "contribColors2": [ 
+    "#e6f7ed",
+    "#abe6b5",
+    "#70d57d",
+    "#41bc56",
+    "#41b883"
+  ],
+  "contribColors3": [  
+    "#fff5f0",
+    "#ffd6b8",
+    "#ffa37f",
+    "#e8704d",
+    "#e44e1e"
+  ],
+  "contribColors4": [ 
+    "#f3f8fb",
+    "#c4e0f2",
+    "#b4cfe8",
+    "#96c7ea",
+    "#67addf"
+  ]
+}

@@ -11,10 +11,12 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }} # read:user, repo
           USERNAME: ${{ github.REPOSITORY_OWNER }}
+          SETTING_JSON: profile-3d-settings/custom-season.json
+
       - name: push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
