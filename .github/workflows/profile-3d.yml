@@ -11,7 +11,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      - uses: NarciSource/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }} # read:user, repo
           USERNAME: ${{ github.REPOSITORY_OWNER }}
